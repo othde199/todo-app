@@ -70,7 +70,7 @@ function TodoForm() {
                 onDeleteTodo={handleDeleteTodo}
                 onReorder={handleReorder}
             />
-            <form onSubmit={handleAddTodo} action="" className="todo-form" style={{ direction: 'rtl' }}>
+            <form onSubmit={handleAddTodo} action="" className="todo-form" style={{ direction: 'rtl', display: 'flex', justifyContent: 'flex-end' }}>
                 <label htmlFor="todo-input">لیست کارهای روزانه</label>
                 <input
                     type="text"
