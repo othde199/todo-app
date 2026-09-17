@@ -71,7 +71,7 @@ function TodoForm() {
                 onReorder={handleReorder}
             />
             <form onSubmit={handleAddTodo} action="" className="todo-form">
-                <label htmlFor="todo-input">Let&quot;s get those todos coming...</label>
+                <label htmlFor="todo-input">lets go</label>
                 <input
                     type="text"
                     id="todo-input"
