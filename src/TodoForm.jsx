@@ -82,7 +82,7 @@ function TodoForm() {
                     placeholder='اضافه کردن کار جدید'
                     required
                     autoComplete="off"
-                    style={{ direction: 'rtl' }}
+                    style={{ direction: 'rtl', width: '100%' }}
                 />
                 <button type="submit">ایجاد کار جدید</button>
             </form>
