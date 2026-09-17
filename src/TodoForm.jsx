@@ -61,7 +61,7 @@ function TodoForm() {
     };
 
     return (
-        <div className="todo-contents">
+        <div className="todo-contents" style={{ direction: 'rtl' }}>
             <TodoItems
                 todos={todos}
                 onToggleCompleted={handleToggleCompleted}
@@ -70,7 +70,7 @@ function TodoForm() {
                 onDeleteTodo={handleDeleteTodo}
                 onReorder={handleReorder}
             />
-            <form onSubmit={handleAddTodo} action="" className="todo-form">
+            <form onSubmit={handleAddTodo} action="" className="todo-form" style={{ direction: 'rtl' }}>
                 <label htmlFor="todo-input">LG</label>
                 <input
                     type="text"
@@ -82,6 +82,7 @@ function TodoForm() {
                     placeholder='Add a new "todo"'
                     required
                     autoComplete="off"
+                    style={{ direction: 'rtl' }}
                 />
                 <button type="submit">Create New</button>
             </form>
