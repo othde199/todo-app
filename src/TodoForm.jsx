@@ -71,7 +71,7 @@ function TodoForm() {
                 onReorder={handleReorder}
             />
             <form onSubmit={handleAddTodo} action="" className="todo-form" style={{ direction: 'rtl' }}>
-                <label htmlFor="todo-input">LG</label>
+                <label htmlFor="todo-input">لیست کارهای روزانه</label>
                 <input
                     type="text"
                     id="todo-input"
@@ -79,12 +79,12 @@ function TodoForm() {
                     name="todo-input"
                     value={newTodo}
                     onChange={(e) => setNewTodo(e.target.value)}
-                    placeholder='Add a new "todo"'
+                    placeholder='اضافه کردن کار جدید'
                     required
                     autoComplete="off"
                     style={{ direction: 'rtl' }}
                 />
-                <button type="submit">Create New</button>
+                <button type="submit">ایجاد کار جدید</button>
             </form>
         </div>
     );
