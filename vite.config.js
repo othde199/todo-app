@@ -1,14 +1,14 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
+import { cloudflare } from "@cloudflare/vite-plugin";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [react()],
+    plugins: [react(), cloudflare()],
     base: "./",
     build: {
         sourcemap: true,
     },
     css: {
-        devSourcemap: true, // enable CSS source maps during development
+        devSourcemap: true,
     },
 });
