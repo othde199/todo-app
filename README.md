@@ -15,7 +15,6 @@ This is a simple todo app built with React, Vite, and Sass. The app allows users
 
 -   React: JavaScript library for building user interfaces.
 -   Sass: CSS extension language that adds features like variables, nested rules, and mixins.
-
 -   Vite: Fast and modern build tooling for web development.
 
 ## Demo
@@ -31,7 +30,7 @@ You can use the Todo App [here](https://skoulasp.github.io/todo-app/).
 1. Clone the repository to your local machine.
 
     ```bash
-    git clone https://skoulasp.github.io/todo-app/
+    git clone https://github.com/skoulasp/todo-app.git
     ```
 
 2. Navigate to the project directory.
